@@ -1,0 +1,17 @@
+.facts {}
+
+.fact_content {
+    display: inline-block;
+    width: 50%;
+    height: 100vh;
+ background: rgb(199, 156, 215);
+ background: linear-gradient(90deg, rgba(199, 156, 215, 1) 2%, rgba(85, 155, 177, 1) 39%, rgba(255, 164, 87, 1) 71%, rgba(240, 236, 237, 1) 98%);
+  color: aliceblue;
+  box-shadow: 5px 10px 15px 15px rgba(187, 187, 187, 0.212);
+}
+
+.side_image {
+    width: 50%;
+    float: right;
+    height: 100vh;
+}

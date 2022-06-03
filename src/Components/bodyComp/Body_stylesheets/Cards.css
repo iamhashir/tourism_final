@@ -1,0 +1,114 @@
+#CardWrapper {
+margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50vh 50vh 50vh 50vh 50vh;
+  margin: 3rem;
+  border: 5px ridge rgb(104, 104, 104);
+  color: white;
+  box-shadow: 5px 5px 50px 10px black;
+}
+
+#Dubai>img,
+#Sharjah>img,
+#Ajman>img,
+#Rak>img,
+#Umm_Al_Quwain>img,
+#Fujairah>img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#Rak>img {
+  width: 100%;
+  height: 100%;
+}
+
+#Dubai>img {
+  width: 100%;
+  object-position: bottom -450px;
+  height: 100%;
+}
+
+ 
+.card {
+  overflow: hidden;
+}
+
+.card>img:hover {
+  transform: scale(1.1);
+  transition: .4s transform ease-in-out;
+
+}
+
+/* .card1:hover{
+  transform:scale(1.1);
+  transition: .4s transform;
+  z-index: 100; */
+/* } */
+
+#Abu_Dhabi>img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  position: relative;
+}
+
+.position_absolute,
+.card_info {
+  position: absolute;
+  bottom: 15%;
+  left: 3%;
+}
+
+.card_heading1 {
+  bottom: 15%;
+  left: 3%;
+}
+
+.card1 {
+  width: 100%;
+  height: 100%;
+  grid-area: 1/1/1/3;
+}
+
+.card2 {
+  width: 100%;
+  height: 100%;
+  grid-area: 3/1/3/3;
+}
+
+.card3 {
+  width: 100%;
+  height: 100%;
+  grid-area: 2/1/2/2;
+  /* grid-area: 3/1/3/2; */
+}
+
+.card4 {
+  width: 100%;
+  height: 100%;
+  grid-area: 2/2/2/3;
+}
+
+.card5 {
+  width: 100%;
+  height: 100%;
+  grid-area: 5/1/5/3;
+}
+
+.card6 {
+  width: 100%;
+  height: 100%;
+  grid-area: 4/1/4/2;
+}
+
+.card7 {
+  width: 100%;
+  height: 100%;
+  grid-area: 4/2/4/4;
+}

@@ -1,0 +1,39 @@
+.mainHeader {
+  color: white;
+  background-size: cover;
+  background: rgba(194, 194, 194, 0.428);
+  color: black;
+  background-repeat: no-repeat;
+  background-position: 10px 10px 20px;
+  position: sticky;
+  opacity: 1;
+  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.539);
+  width: 100%;
+  z-index: 100;
+}
+
+* {
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.Header {
+  height: 13vh;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+
+}
